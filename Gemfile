@@ -18,6 +18,11 @@ gem 'coffee-rails', '~> 4.0.0'
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
 
+group :development, :test do
+	gem 'rspec-rails', '2.13.1'
+	gem 'guard-rspec', '2.5.0'
+end
+
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
 
@@ -50,3 +55,6 @@ end
 
 # Use debugger
 # gem 'debugger', group: [:development, :test]
+
+gem 'bootstrap-sass', '2.3.2.0'
+
